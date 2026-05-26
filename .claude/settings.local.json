@@ -13,7 +13,18 @@
       "Bash(git init *)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(echo \"===EXIT:$?===\")"
+      "Bash(echo \"===EXIT:$?===\")",
+      "Bash(git remote *)",
+      "Bash(git branch *)",
+      "Bash(git push *)",
+      "Bash(command -v gh)",
+      "Bash(gh auth *)",
+      "Bash(gh repo *)",
+      "Bash(openssl x509 *)",
+      "Bash(curl -sS --retry 5 --retry-delay 1 --retry-all-errors --cacert certs/ca.crt https://localhost:6545/)",
+      "Bash(curl -sS --cacert certs/ca.crt https://localhost:6545/)",
+      "Bash(python3 -c \"import sys,re,html; m=re.search\\(r'<pre>\\(.*?\\)</pre>', sys.stdin.read\\(\\), re.S\\); print\\(html.unescape\\(m.group\\(1\\)\\) if m else 'LOADER NICHT GEFUNDEN'\\)\")",
+      "Bash(curl -sS \"https://webflow-template-lasttry.webflow.io/\")"
     ]
   }
 }
